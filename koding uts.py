@@ -1,0 +1,22 @@
+matakuliah = input ("masukkan nama mata kuliah=")
+print ("Data 1")
+Nama1 = input ("nama : ")
+NIM1 = input ("NIM : ")
+print ("Data 2")
+Nama2 = input ("nama : ")
+NIM2 = input ("NIM : ")
+print ("Data 3")
+Nama3 = input ("nama : ")
+NIM3 = input ("NIM : ")
+
+garis = "----------------------------------------------------------------------"
+print
+print (garis)
+print ("| NIM | NAMA | MATA KULIAH |")
+print (garis)
+print ("| %s |" % (NIM1), " %s |" % (Nama1), " %s |" %(matakuliah))
+print (garis)
+print ("| %s |" % (NIM2), " %s |" % (Nama2), " %s |" %(matakuliah))
+print (garis)
+print ("| %s |" % (NIM3), " %s |" % (Nama3), " %s |" %(matakuliah))
+print (garis)
